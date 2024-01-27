@@ -1,7 +1,8 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
 public class Square implements Shape {
-    public double sideLen;
+    // change the access modifier from public to private
+    private double sideLen;
 
     public Square(double sideLen) {
         this.sideLen = sideLen;
@@ -9,5 +10,9 @@ public class Square implements Shape {
     
     public double getArea() {
         return sideLen * sideLen;
+    }
+
+    public double getcrazy() {
+        return sideLen * sideLen * sideLen;
     }
 }
