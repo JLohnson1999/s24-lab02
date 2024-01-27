@@ -11,8 +11,4 @@ public class Square implements Shape {
     public double getArea() {
         return sideLen * sideLen;
     }
-
-    public double getcrazy() {
-        return sideLen * sideLen * sideLen;
-    }
 }
